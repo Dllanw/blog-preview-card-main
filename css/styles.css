@@ -70,10 +70,11 @@ main {
 .container {
     padding: 2.5rem 2.5rem 2.2rem 2.5rem;
     border-radius: 2rem;
-    width: 33.5rem;
-    max-width: 35rem;
+    width: max-content;
+    max-width: 34.5rem;
     height: max-content;
-    margin-bottom: 3rem;
+    height: 48.3rem;
+    margin-bottom: 3rem;  
     background-color: var(--White);
     border: 1px solid var(--Black);
     box-shadow: 6px 9px 0px 3px rgba(0,0,0,1);
@@ -109,8 +110,8 @@ main {
 }
 
 .article-card__title {
-    margin: 1.3rem 0 1.3rem 0;
-    font-size: 2.35rem;
+    margin: 1.2rem 0 1.2rem 0;
+    font-size: 2.3rem;
     font-weight: 800;
     transition: 0.8s ease;
 }
