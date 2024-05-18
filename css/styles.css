@@ -68,10 +68,10 @@ main {
 }
 
 .container {
-    padding: 2.5rem;
+    padding: 2.5rem 2.5rem 2.2rem 2.5rem;
     border-radius: 2rem;
-    width: 36.8rem;
-    max-width: 36.8rem;
+    width: 33.5rem;
+    max-width: 35rem;
     height: max-content;
     margin-bottom: 3rem;
     background-color: var(--White);
@@ -103,16 +103,22 @@ main {
 }
 
 .article-card__date {
+    font-size: 14px;
     font-weight: 600;
     color: var(--Black);
 }
 
 .article-card__title {
-    font-size: 2.75rem;
+    margin: 1.3rem 0 1.3rem 0;
+    font-size: 2.35rem;
     font-weight: 800;
-    transition: 1s ease;
+    transition: 0.8s ease;
 }
 
+.article-card__title:hover {
+    cursor: pointer;
+    color: var(--Yellow);
+}
 @media (max-width: 445px) {
     .article-card__title {
         font-size: 2.63rem;
@@ -120,7 +126,7 @@ main {
 }
 
 .article-card__text {
-    font-size: 1.84rem;
+    margin: 0 0 2rem 0;
     line-height: 2.5rem;
     color: var(--Grey);
 }
